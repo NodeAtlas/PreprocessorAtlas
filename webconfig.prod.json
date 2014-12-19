@@ -1,0 +1,8 @@
+{
+	"httpPort": 7777,
+	"httpHostname": "www.example.com",
+ 	"urlPort": 80,
+	"routes": "routes.json",
+  	"bundles": "bundles.json",
+	"_minified": ".min"
+}

@@ -1,0 +1,9 @@
+{
+	"stylesheets": {
+		"files": {
+			"stylesheets/common.min.css": [
+				"stylesheets/common.css"
+			]
+		}
+	}
+}
