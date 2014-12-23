@@ -1,8 +1,11 @@
 {
 	"stylesheets": {
 		"files": {
-			"stylesheets/common.min.css": [
-				"stylesheets/common.css"
+			"stylesheets/bootstrap-example.min.css": [
+				"stylesheets/bootstrap-example.css"
+			],
+			"stylesheets/no-framework-example.min.css": [
+				"stylesheets/no-framework-example.css"
 			]
 		}
 	}

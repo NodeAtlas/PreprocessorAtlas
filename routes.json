@@ -1,3 +1,10 @@
 {
-  "/": "index.htm"
+	"/no-framework": {
+		"template": "index.htm",
+		"variation": "no-framework.json"
+	},
+	"/bootstrap": {
+		"template": "index.htm",
+		"variation": "bootstrap.json"
+	}
 }

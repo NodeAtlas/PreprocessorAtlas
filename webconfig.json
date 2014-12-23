@@ -1,5 +1,6 @@
 {
 	"httpPort": 7777,
+	"indexPage": true,
 	"enableLess": true,
 	"routes": "routes.json",
 	"_minified": ""

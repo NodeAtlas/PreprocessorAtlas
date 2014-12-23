@@ -6,7 +6,7 @@
  * SUMMARY.................It's me !
  * RESET...................Same render for all browser.
  * IMPORT..................CSS from Framework.
- * TEST....................Some activable or desactivable CSS rules for debug.
+ * TESTS....................Some activable or desactivable CSS rules for debug.
  * GRID....................Grid base 12 columns.
  */
 
@@ -39,8 +39,12 @@ body {
 
 @import 'bootstrap/variables';
 @import 'bootstrap/grid';
+/*@import 'bootstrap/type';*/
 @import 'bootstrap/responsive-utilities';
 @import 'bootstrap/mixins/grid';
+/*@import 'bootstrap/mixins/text-emphasis.less';
+@import 'bootstrap/mixins/text-overflow.less';
+@import 'bootstrap/mixins/background-variant.less';*/
 @import 'bootstrap/mixins/grid-framework';
 @import 'bootstrap/mixins/responsive-visibility';
 
@@ -49,7 +53,7 @@ body {
 
 
 /*------------------------------------*\
-    $TEST
+    $TESTS
 \*------------------------------------*/
 
 .brand:before,
@@ -148,6 +152,15 @@ body {
 	margin: 0;
 	list-style: none;
 }
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
 
 body > header,
 .content,
@@ -222,4 +235,20 @@ body > footer {
 .step {
 	.hidden-xs;
 	.make-sm-column(4);
+}
+.legals,
+.brand {
+  .text-left;
+}
+.utils {
+  .text-center;
+}
+@media (min-width: @screen-sm-min) {
+  .utils,
+  .brand {
+    .text-right;
+  }
+  .legals {
+    .text-left
+  }
 }

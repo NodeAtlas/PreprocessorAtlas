@@ -5,7 +5,7 @@
  * SUMMARY.................It's me !
  * RESET...................Same render for all browser.
  * IMPORT..................CSS from Framework.
- * TEST....................Some activable or desactivable CSS rules for debug.
+ * TESTS....................Some activable or desactivable CSS rules for debug.
  * GRID....................Grid base 12 columns.
  */
 /*------------------------------------*\
@@ -702,6 +702,7 @@ body > footer {
     margin-left: 0%;
   }
 }
+/*@import 'bootstrap/type';*/
 @-ms-viewport {
   width: device-width;
 }
@@ -912,8 +913,11 @@ body > footer {
     display: none !important;
   }
 }
+/*@import 'bootstrap/mixins/text-emphasis.less';
+@import 'bootstrap/mixins/text-overflow.less';
+@import 'bootstrap/mixins/background-variant.less';*/
 /*------------------------------------*\
-    $TEST
+    $TESTS
 \*------------------------------------*/
 .brand:before,
 .slogan:before,
@@ -1010,6 +1014,15 @@ body > footer {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
 }
 .brand {
   position: relative;
@@ -1210,4 +1223,20 @@ body > footer {
     width: 33.33333333%;
   }
 }
-/*# sourceMappingURL=common.css.map */
+.legals,
+.brand {
+  text-align: left;
+}
+.utils {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .utils,
+  .brand {
+    text-align: right;
+  }
+  .legals {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=bootstrap-example.css.map */
