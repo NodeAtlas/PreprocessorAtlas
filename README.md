@@ -1,6 +1,6 @@
 # LessAtlas #
 
-Version : 2.0.0
+Version : 2.1.0
 
 NodeAtlas Version minimale : 0.30.x
 
@@ -10,9 +10,9 @@ NodeAtlas Version minimale : 0.30.x
 
 ## Avant-propos ##
 
-LessAtlas est un exemple de site web Node.js développé avec [NodeAtlas](http://haeresis.github.io/NodeAtlas/).
+LessAtlas est un exemple de site tournant avec [NodeAtlas](http://haeresis.github.io/NodeAtlas/) et utilisant la fonctionalité Less.
 
-Il peut vous servir d'inspiration pour créer vos propres sites !
+**Il fait office d'exemple pour l'article : [Utilisation optimisée de Framework CSS comme Bootstrap avec Less](http://blog.lesieur.name/utilisation-optimisee-de-framework-css-comme-bootstrap-avec-less/)**!
 
 
 
@@ -50,9 +50,9 @@ Le site sera accessible ici :
 
 ### Overview ###
 
-LessAtlas is an example of Node.js website running with [NodeAtlas](http://haeresis.github.io/NodeAtlas/).
+LessAtlas is an example of Node.js website running with [NodeAtlas](http://haeresis.github.io/NodeAtlas/) and with Less enabled.
 
-It used as inspiration to create your own website!
+**It used as an example for the article : [Utilisation optimisée de Framework CSS comme Bootstrap avec Less](http://blog.lesieur.name/utilisation-optimisee-de-framework-css-comme-bootstrap-avec-less/)** (Fr)
 
 
 
