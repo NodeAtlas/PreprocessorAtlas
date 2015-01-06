@@ -1,8 +1,8 @@
 # LessAtlas #
 
-Version : 2.1.0
+Version : 2.2.0
 
-NodeAtlas Version minimale : 0.30.x
+NodeAtlas Version minimale : 0.1.x
 
 **For an international version of this README.md, [see below](#international-version).**
 
@@ -30,7 +30,7 @@ Déplacez vous ensuite dans le dossier :
 et utilisez la commande :
 
 ```
-\> node </path/to/>node-atlas/node-atlas.js --run
+\> node </path/to/>node-atlas/node-atlas.js --browse
 ```
 
 ou lancez `server.na` en double cliquant dessus :
@@ -71,7 +71,7 @@ Then you move into the folder:
 and use the command:
 
 ```
-\> node </path/to/>node-atlas/node-atlas.js --run
+\> node </path/to/>node-atlas/node-atlas.js --browse
 ```
 
 or run `app.na` by double clicking and:
