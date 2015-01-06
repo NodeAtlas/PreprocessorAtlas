@@ -367,33 +367,6 @@ body > footer:after,
   float: left;
   width: 100%;
 }
-.gutter,
-.brand,
-.slogan,
-.title,
-.main-nav,
-.overview,
-.anchor-nav,
-.article,
-.step,
-.call-to-action,
-.secondary-nav,
-.utils,
-.legals {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-.list-reset,
-.step-list,
-.call-to-action-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.clearfix,
-.title {
-  clear: both;
-}
 /*------------------------------------*\
 		$ALIGMENT
 \*------------------------------------*/
