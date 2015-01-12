@@ -1,12 +1,10 @@
 {
 	"stylesheets": {
-		"files": {
-			"stylesheets/bootstrap-example.min.css": [
-				"stylesheets/bootstrap-example.css"
-			],
-			"stylesheets/no-framework-example.min.css": [
-				"stylesheets/no-framework-example.css"
-			]
-		}
+		"stylesheets/bootstrap-example.min.css": [
+			"stylesheets/bootstrap-example.css"
+		],
+		"stylesheets/no-framework-example.min.css": [
+			"stylesheets/no-framework-example.css"
+		]
 	}
 }
