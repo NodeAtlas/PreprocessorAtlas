@@ -1,6 +1,6 @@
 # LessAtlas #
 
-Version : 2.4.0
+Version : 3.0.0
 
 NodeAtlas Version minimale : 0.36.x
 
