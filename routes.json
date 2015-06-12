@@ -6,5 +6,9 @@
 	"/bootstrap": {
 		"template": "index.htm",
 		"variation": "bootstrap.json"
+	},
+	"/bootstrap-optimised": {
+		"template": "index.htm",
+		"variation": "bootstrap-optimised.json"
 	}
 }

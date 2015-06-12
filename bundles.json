@@ -3,6 +3,9 @@
 		"stylesheets/bootstrap-example.min.css": [
 			"stylesheets/bootstrap-example.css"
 		],
+		"stylesheets/bootstrap-optimised.min.css": [
+			"stylesheets/bootstrap-optimised.css"
+		],
 		"stylesheets/no-framework-example.min.css": [
 			"stylesheets/no-framework-example.css"
 		]
