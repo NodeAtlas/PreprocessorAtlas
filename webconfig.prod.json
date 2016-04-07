@@ -1,8 +1,8 @@
 {
 	"httpPort": 7777,
-	"enableIndex": true,
-	"httpHostname": "www.example.com",
- 	"urlPort": 80,
+	"enableLess": {
+        "less": "less.json"
+    },
 	"routes": "routes.json",
   	"bundles": "bundles.json",
 	"_minified": ".min"

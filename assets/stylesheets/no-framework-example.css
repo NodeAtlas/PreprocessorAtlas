@@ -1,5 +1,5 @@
 /*------------------------------------*\
-		$SUMMARY
+        $SUMMARY
 \*------------------------------------*/
 /**
  * SUMMARY.................It's me !
@@ -15,19 +15,14 @@
     $VARIABLES
 \*------------------------------------*/
 /*------------------------------------*\
-	$RESET
+    $RESET
 \*------------------------------------*/
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 body {
   margin: 0;
   padding: 0;
 }
 /*------------------------------------*\
-	$TESTS
+    $TESTS
 \*------------------------------------*/
 .brand:before,
 .slogan:before,
@@ -368,7 +363,7 @@ body > footer:after,
   width: 100%;
 }
 /*------------------------------------*\
-		$ALIGMENT
+        $ALIGMENT
 \*------------------------------------*/
 .text-left {
   text-align: left;
@@ -385,7 +380,7 @@ body > footer:after,
   text-align: justify;
 }
 /*------------------------------------*\
-		$VISTIBLE / HIDDEN
+        $VISTIBLE / HIDDEN
 \*------------------------------------*/
 .display-block {
   display: block;
@@ -404,6 +399,21 @@ body > footer:after,
     $UI
 \*------------------------------------*/
 /* Mobile / Small tablet */
+.brand,
+.slogan,
+.title,
+.main-nav,
+.overview,
+.anchor-nav,
+.main,
+.article,
+.step,
+.call-to-action,
+.secondary-nav,
+.utils,
+.legals {
+  box-sizing: border-box;
+}
 /* Tablet / Small desktop */
 @media (min-width: 764px) {
   .brand,
@@ -494,4 +504,3 @@ body > footer:after,
     display: none;
   }
 }
-/*# sourceMappingURL=/stylesheets/no-framework-example.css.map */

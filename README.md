@@ -74,7 +74,7 @@ and use the command:
 \> node </path/to/>node-atlas/node-atlas.js --browse
 ```
 
-or run `app.na` by double clicking and:
+or run `server.na` by double clicking and:
 - explaining your OS that `.na` files are run by default with `node`,
 - Having installed `node-atlas` via `npm install -g node-atlas`
 - Being on your environment variable `NODE_PATH` is pointing to the global `node_modules` folder.

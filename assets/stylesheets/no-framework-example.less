@@ -1,5 +1,5 @@
 /*------------------------------------*\
-		$SUMMARY
+        $SUMMARY
 \*------------------------------------*/
 
 /**
@@ -33,18 +33,12 @@
 
 
 /*------------------------------------*\
-	$RESET
+    $RESET
 \*------------------------------------*/
 
-* {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-			box-sizing: border-box;
-}
-
 body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -52,7 +46,7 @@ body {
 
 
 /*------------------------------------*\
-	$TESTS
+    $TESTS
 \*------------------------------------*/
 
 .brand:before,
@@ -115,19 +109,19 @@ body {
     background-color: rgba(150, 0, 150, 0.5);
 }
 .main:before {
-	content: none;
+    content: none;
 }
 .article:before {
-	content: "Article";
-	background-color: rgba(255, 255, 0, 0.2);
-	width: 100%;
-	display: inline-block;
+    content: "Article";
+    background-color: rgba(255, 255, 0, 0.2);
+    width: 100%;
+    display: inline-block;
 }
 .step:before {
-	content: "Step";
-	background-color: rgba(0, 255, 0, 0.2);
-	width: 100%;
-	display: inline-block;
+    content: "Step";
+    background-color: rgba(0, 255, 0, 0.2);
+    width: 100%;
+    display: inline-block;
 }
 
 
@@ -223,7 +217,7 @@ body {
 
 
 /*------------------------------------*\
-		$ALIGMENT
+        $ALIGMENT
 \*------------------------------------*/
 
 .text-left { text-align: left; }
@@ -234,9 +228,9 @@ body {
 
 
 
-	
+    
 /*------------------------------------*\
-		$VISTIBLE / HIDDEN
+        $VISTIBLE / HIDDEN
 \*------------------------------------*/
 
 .display-block { display: block; }
@@ -262,7 +256,7 @@ body > footer,
 body > header:after,
 body > footer:after,
 .content:after {
-    &:extend(.grid:after);  
+    &:extend(.grid:after);
 }
 
 .brand,
@@ -278,7 +272,8 @@ body > footer:after,
 .secondary-nav,
 .utils,
 .legals {
-    &:extend(.column);   
+    box-sizing: border-box;
+    &:extend(.column);
 }
 
 .brand,

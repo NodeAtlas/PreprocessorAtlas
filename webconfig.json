@@ -1,7 +1,10 @@
 {
 	"httpPort": 7777,
 	"enableIndex": true,
-	"enableLess": true,
+	"enableLess": {
+        "less": "less.json"
+    },
+  	"bundles": "bundles.json",
 	"routes": "routes.json",
 	"_minified": ""
 }

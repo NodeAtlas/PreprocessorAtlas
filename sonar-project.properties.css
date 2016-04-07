@@ -1,0 +1,15 @@
+# Required metadata
+sonar.projectKey=lessatlas-css
+sonar.projectName=LessAtlas CSS
+sonar.projectVersion=3.0
+
+# Comma-separated paths to directories with sources (required)
+sonar.sources=./
+
+# Language
+sonar.language=css
+
+# Encoding of the source files
+sonar.sourceEncoding=UTF-8
+
+sonar.exclusions=node_modules/**,assets/stylesheets/**.min.css,assets/stylesheets/bootstrap/**,assets/stylesheets/bootstrap**
