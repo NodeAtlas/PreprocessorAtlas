@@ -1,8 +1,8 @@
 # LessAtlas #
 
-Version : 3.0.0
+Version : 4.0.0
 
-NodeAtlas Version minimale : 0.36.x
+NodeAtlas Version minimale : 1.3.x
 
 **For an international version of this README.md, [see below](#international-version).**
 

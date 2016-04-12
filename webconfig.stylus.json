@@ -1,0 +1,17 @@
+{
+	"httpPort": 7777,
+	"enableIndex": true,
+	"enableStylus": {
+        "stylus": [
+		    "stylesheets/stylus-example.styl"
+		]
+    },
+    "urlRelativeSubPath": "sub/folder",
+	"routes": {
+		"/stylus": {
+			"template": "index.htm",
+			"variation": "stylus.json"
+		}
+	},
+	"_minified": ""
+}

@@ -1,6 +1,7 @@
 {
 	"httpPort": 7777,
 	"enableIndex": true,
+	"stylesheetsBundlesBeforeResponse": true,
 	"enableLess": {
         "less": "less.json"
     },
