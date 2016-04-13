@@ -6,7 +6,15 @@
 		    "stylesheets/stylus-example.styl"
 		]
     },
+    "bundles": {
+		"stylesheets": {
+			"stylesheets/stylus-example.min.css": [
+				"stylesheets/stylus-example.css"
+			]
+		}
+    },
     "urlRelativeSubPath": "sub/folder",
+    "stylesheetsBundlesBeforeResponse": false,
 	"routes": {
 		"/stylus": {
 			"template": "index.htm",
