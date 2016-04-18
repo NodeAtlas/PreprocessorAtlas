@@ -1,7 +1,7 @@
 # Required metadata
-sonar.projectKey=lessatlas-css
-sonar.projectName=LessAtlas CSS
-sonar.projectVersion=3.0
+sonar.projectKey=preprocessoratlas-css
+sonar.projectName=PreprocessorAtlas CSS
+sonar.projectVersion=4.0
 
 # Comma-separated paths to directories with sources (required)
 sonar.sources=./

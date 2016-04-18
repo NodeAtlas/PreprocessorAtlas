@@ -1,7 +1,7 @@
 # Required metadata
-sonar.projectKey=lessatlas-js
-sonar.projectName=LessAtlas JS
-sonar.projectVersion=3.0
+sonar.projectKey=preprocessoratlas-js
+sonar.projectName=PreprocessorAtlas JS
+sonar.projectVersion=4.0
 
 # Comma-separated paths to directories with sources (required)
 sonar.sources=./

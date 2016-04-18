@@ -1,4 +1,4 @@
-# LessAtlas #
+# PreprocessorAtlas #
 
 Version : 4.0.0
 
@@ -10,7 +10,7 @@ NodeAtlas Version minimale : 1.3.x
 
 ## Avant-propos ##
 
-LessAtlas est un exemple de site tournant avec [NodeAtlas](http://haeresis.github.io/NodeAtlas/) et utilisant la fonctionalité Less.
+PreprocessorAtlas est un exemple de site tournant avec [NodeAtlas](http://haeresis.github.io/NodeAtlas/) et utilisant les fonctionalités Less et Stylus.
 
 **Il fait office d'exemple pour l'article : [Utilisation optimisée de Framework CSS comme Bootstrap avec Less](http://blog.lesieur.name/utilisation-optimisee-de-framework-css-comme-bootstrap-avec-less/)**!
 
@@ -50,7 +50,7 @@ Le site sera accessible ici :
 
 ### Overview ###
 
-LessAtlas is an example of Node.js website running with [NodeAtlas](http://haeresis.github.io/NodeAtlas/) and with Less enabled.
+PreprocessorAtlas is an example of Node.js website running with [NodeAtlas](http://haeresis.github.io/NodeAtlas/) and with Less enabled.
 
 **It used as an example for the article : [Utilisation optimisée de Framework CSS comme Bootstrap avec Less](http://blog.lesieur.name/utilisation-optimisee-de-framework-css-comme-bootstrap-avec-less/)** (Fr)
 

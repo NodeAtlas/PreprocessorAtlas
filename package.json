@@ -1,16 +1,16 @@
 {
-  "name": "less-atlas",
-  "version": "3.0.0",
+  "name": "preprocessor-atlas",
+  "version": "4.0.0",
   "author": "Bruno Lesieur <bruno.lesieur@gmail.com>",
-  "description": "NodeAtlas Example Environment Using Less",
+  "description": "NodeAtlas Example using Less or Stylus Preprocessor",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Haeresis/LessAtlas.git"
+    "url": "https://github.com/Haeresis/PreprocessorAtlas.git"
   },
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/Haeresis/LessAtlas/issues"
+    "url": "https://github.com/Haeresis/PreprocessorAtlas/issues"
   },
   "main": "server.na",
   "engines": {
