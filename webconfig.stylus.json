@@ -17,7 +17,7 @@
     "stylesheetsBundlesBeforeResponse": false,
 	"routes": {
 		"/stylus": {
-			"template": "index.htm",
+			"view": "index.htm",
 			"variation": "stylus.json"
 		}
 	},

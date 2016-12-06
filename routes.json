@@ -1,14 +1,14 @@
 {
 	"/no-framework": {
-		"template": "index.htm",
+		"view": "index.htm",
 		"variation": "no-framework.json"
 	},
 	"/bootstrap": {
-		"template": "index.htm",
+		"view": "index.htm",
 		"variation": "bootstrap.json"
 	},
 	"/bootstrap-optimised": {
-		"template": "index.htm",
+		"view": "index.htm",
 		"variation": "bootstrap-optimised.json"
 	}
 }
