@@ -1,0 +1,205 @@
+/*------------------------------------*\
+        $SUMMARY
+\*------------------------------------*/
+/**
+ * SUMMARY.................It's me !
+ * VARIABLES...............Reusable value.
+ * PATTERN.................For HTML-Driven usage.
+ * COMPONENT...............CSS-Driven Variation and State .
+ */
+ 
+
+
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+
+@import "variables"
+
+
+
+/*------------------------------------*\
+    $PATTERN
+\*------------------------------------*/
+
+create-span(12)
+
+create-pull(12)
+
+create-push(12)
+
+create-prepend(12)
+
+create-append(12)
+
+.text-left
+	text-left()
+
+.text-center
+	text-center()
+
+.text-right
+	text-right()
+
+.text-justify
+	text-justify()
+
+
+
+/*------------------------------------*\
+    $COMPONENT 
+\*------------------------------------*/
+
+body
+	margin 0
+	padding 0
+	> header
+		grid()
+		clearfix()
+	> footer
+		grid()
+		clearfix()
+
+.slogan
+	title-content("Slogan", rgba(150, 150, 0, 0.5))
+	gutter()
+	column()
+	box-sizing()
+	@media (min-width: screen-sm-min)
+		pull-push()
+		pull(2, 12)
+		span(10, 12)
+	
+.brand
+	title-content("Brand", rgba(0, 0, 150, 0.5))
+	gutter()
+	column()
+	box-sizing()
+	@media (min-width: screen-sm-min)
+		pull-push()
+		text-right()
+		push(10, 12)
+		span(2, 12)
+	
+.title
+	title-content("Title", rgba(255, 0, 0, 0.2))
+	gutter()
+	column()
+	box-sizing()
+	clear both
+	@media (min-width: screen-sm-min)
+		span(2, 12)
+
+.main-nav
+	title-content("Nav", rgba(0, 255, 0, 0.2))
+	gutter()
+	column()
+	box-sizing()
+	@media (min-width: screen-sm-min)
+		span(10, 12)
+
+.overview
+	title-content("Overview", rgba(150, 0, 0, 0.5))
+	gutter()
+	column()
+	box-sizing()
+
+.anchor-nav
+	title-content("Anchor nav", rgba(0, 0, 255, 0.2))
+	gutter()
+	column()
+	box-sizing()
+	@media (min-width: screen-sm-min)
+		span(3, 12)
+	@media (min-width: screen-md-min)
+		span(4, 12)
+	@media (min-width: screen-lg-min)
+		span(3, 12)
+
+.main
+	column()
+	box-sizing()
+	@media (min-width: screen-sm-min)
+		span(9, 12)
+	@media (min-width: screen-md-min)
+		span(8, 12)
+	@media (min-width: screen-lg-min)
+		span(9, 12)
+
+.call-to-action
+	title-content("Call to action", rgba(255, 0, 255, 0.2))
+	gutter()
+	column()
+	box-sizing()
+	@media (min-width: screen-sm-min)
+		span(6, 12)
+		&:nth-child(n + 3)
+			display-none()
+	@media (min-width: screen-md-min)
+		span(4, 12)
+		&:nth-child(n + 3)
+			display-block()
+	@media (min-width: screen-lg-min)
+		span(4, 12)
+		&:nth-child(n + 3)
+			display-none()
+		&:nth-child(odd)
+			prepend(2, 12)
+		&:nth-child(even)
+			appemd(2, 12)
+
+.secondary-nav
+	title-content("Secondary nav", rgba(0, 150, 0, 0.5))
+	gutter()
+	column()
+	box-sizing()
+
+.legals
+	title-content("Legals", rgba(0, 255, 255, 0.2))
+	gutter()
+	column()
+	text-center()
+	box-sizing()
+	@media (min-width: screen-sm-min)
+		text-left()
+		pull-push()
+		pull(3, 12)
+		span(9, 12)
+
+.utils
+	title-content("Utils", rgba(150, 0, 150, 0.5))
+	gutter()
+	column()
+	text-center()
+	box-sizing()
+	@media (min-width: screen-sm-min)
+		pull-push()
+		text-right()
+		push(9, 12)
+		span(3, 12)
+
+.article
+	title-content("Article", rgba(255, 255, 0, 0.2))
+	gutter()
+	column()
+	box-sizing()
+
+.step
+	title-content("Step", rgba(0, 255, 0, 0.2))
+	gutter()
+	column()
+	display-none()
+	box-sizing()
+	@media (min-width: screen-sm-min)
+		span(4, 12)
+		display-block()
+
+.step-list
+	list-reset()
+	
+.call-to-action-list
+	list-reset()
+
+.content
+	grid()
+	clearfix()

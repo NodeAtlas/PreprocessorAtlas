@@ -1,8 +1,8 @@
 {
 	"httpPort": 7777,
-	"enableIndex": true,
-	"enableStylus": {
-        "stylus": [
+	"index": true,
+	"stylus": {
+        "files": [
 		    "stylesheets/stylus-example.styl"
 		]
     },

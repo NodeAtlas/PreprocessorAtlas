@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+        <title>Less Example without Framework</title>
+        <link rel="stylesheet" href="stylesheets/no-framework-example.css">
+    </head>
+    <body>
+        <header>
+            <div class="brand">
+                
+                <div class="logo component">
+                    <h3>Bruno Lesieur</h3>
+                </div>
+
+            </div>
+            <div class="slogan">
+                
+                <div class="markdown component">
+                    <p>Some #ID with lot of .CLASS</p>
+                </div>
+
+            </div>
+            <div class="title">
+                
+                <div class="logo component">
+                    <h1>Quelque #ID et beaucoup de .CLASS</h1>
+                </div>  
+
+            </div>
+            <nav class="main-nav">
+                
+                <div class="navigation component">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Section A</a></li>
+                        <li><a href="">Section B</a></li>
+                        <li><a href="">Section C</a></li>
+                    </ul>
+                </div>      
+
+            </nav>
+        </header>
+        <div class="content">
+            <section class="overview">
+                
+                <div class="carousel component">
+                    <h1>Slide 1</h1>
+                    <p>Bla bla bla</p>
+                </div>  
+
+            </section>
+            <nav class="anchor-nav">
+                
+                <div class="navigation component">
+                    <h2>Summary</h2>
+                    <ul>
+                        <li>
+                            <a href="#h1-title">H1 Title</a>
+                            <ul>
+                                <li>
+                                    <a href="#h2-title">H2 Title</a>
+                                    <ul>
+                                        <li><a href="#h3-title-1">H3 Title 1</a></li>
+                                        <li><a href="#h3-title-2">H3 Title 1</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <article class="main">
+                <div class="article">
+
+                    <div class="markdown component">
+                        <header>
+                            <h1 id="h1-title">H1 Title</h1>
+                            <p>This is a leading text for my article</p>
+                        </header>
+
+                        <h2 id="h2-title">H2 Title</h2>
+                        <p>Bla bla bla</p>
+
+                        <h3 id="h3-title-1">H3 Title 1</h3>
+                        <p>Bla bla bla</p>
+
+                        <h3 id="h3-title-2">H3 Title 2</h3>
+                        <p>Bla bla bla</p>
+
+                        <header>
+                            <footer>
+                                <p>by <a href="">Haeresis</a></p>
+                                <p>date, etc</p>
+                            </footer>
+                        </header>
+                    </div>
+
+                </div>
+                <ul class="step-list">
+                    <li class="step">
+
+                        <div class="markdown component">
+                            <h3>H3 Step</h3>
+                            <p>Bla bla bla</p>
+                        </div>
+
+                    </li>
+                    <li class="step">
+                        
+                        <div class="markdown component">
+                            <h3>H3 Step</h3>
+                            <p>Bla bla bla</p>
+                        </div>
+
+                    </li>
+                    <li class="step">
+                        
+                        <div class="markdown component">
+                            <h3>H3 Step</h3>
+                            <p>Bla bla bla</p>
+                        </div>
+
+                    </li>
+                </ul>
+            </article>
+            <ul class="call-to-action-list">
+                <li class="call-to-action">
+                    
+                    <div class="markdown component">
+                        <h2>H2 Action</h2>
+                        <p>Bla bla bla</p>
+                    </div>
+
+                </li>
+                <li class="call-to-action">
+        
+                    <div class="markdown component">
+                        <h2>H2 Action</h2>
+                        <p>Bla bla bla</p>
+                    </div>          
+
+                </li>
+                <li class="call-to-action">
+        
+                    <div class="markdown component">
+                        <h2>H2 Action</h2>
+                        <p>Bla bla bla</p>
+                    </div>          
+
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <nav class="secondary-nav">
+                
+                <div class="navigation component">
+                    <ul>
+                        <li>
+                            <a href="">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <div class="utils">
+                
+                <div class="markdown component">
+                    <p>Join us on Google+</p>
+                </div>  
+
+            </div>
+            <div class="legals">
+                
+                <div class="markdown component">
+                    <p>©All Right not reserved at all</p>
+                </div>  
+
+            </div>
+        </footer>
+    <body>
+</body></body></html>

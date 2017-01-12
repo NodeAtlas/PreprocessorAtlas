@@ -1,8 +1,8 @@
 {
 	"cache": true,
 	"httpPort": 7777,
-	"enableLess": {
-        "less": "less.json"
+	"less": {
+        "files": "less.json"
     },
 	"routes": "routes.json",
   	"bundles": "bundles.json",

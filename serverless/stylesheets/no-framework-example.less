@@ -1,0 +1,405 @@
+/*------------------------------------*\
+        $SUMMARY
+\*------------------------------------*/
+
+/**
+ * SUMMARY.................It's me !
+ * VARIABLES...............Reusable value.
+ * RESET...................Same render for all browser.
+ * TESTS...................Some activable or desactivale CSS rules for debug.
+ * GRID....................Grid base 12 columns.
+ * ALIGNMENT...............Align content of colums.
+ * VISTIBLE / HIDDEN.......Hide / Display colums.
+ * UI......................Apply CSS on all components.
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+
+@screen-xs-max: 763px;
+@screen-sm-min: 764px;
+@screen-sm-max: 991px;
+@screen-md-min: 992px;
+@screen-md-max: 1199px;
+@screen-lg-min: 1200px;
+
+
+
+
+
+/*------------------------------------*\
+    $RESET
+\*------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $TESTS
+\*------------------------------------*/
+
+.brand:before,
+.slogan:before,
+.title:before,
+.main-nav:before,
+.overview:before,
+.anchor-nav:before,
+.main:before,
+.call-to-action:before,
+.secondary-nav:before,
+.legals:before,
+.utils:before {
+    width: 100%;
+    display: inline-block;
+}
+
+.brand:before {
+    content: "Brand";
+    background-color: rgba(0, 0, 150, 0.5);
+}
+.slogan:before {
+    content: "Slogan";
+    background-color: rgba(150, 150, 0, 0.5);
+}
+.title:before {
+    content: "Title";
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.main-nav:before {
+    content: "Nav";
+    background-color: rgba(0, 255, 0, 0.2);
+}
+.overview:before {
+    content: "Overview";
+    background-color: rgba(150, 0, 0, 0.5);
+}
+.anchor-nav:before {
+    content: "Anchor nav";
+    background-color: rgba(0, 0, 255, 0.2);
+}
+.main:before {
+    content: "Main";
+    background-color: rgba(255, 255, 0, 0.2);
+}
+.call-to-action:before {
+    content: "Call to action";
+    background-color: rgba(255, 0, 255, 0.2);
+}
+.secondary-nav:before {
+    content: "Secondary nav";
+    background-color: rgba(0, 150, 0, 0.5);
+}
+.legals:before {
+    content: "Legals";
+    background-color: rgba(0, 255, 255, 0.2);
+}
+.utils:before {
+    content: "Utils";
+    background-color: rgba(150, 0, 150, 0.5);
+}
+.main:before {
+    content: none;
+}
+.article:before {
+    content: "Article";
+    background-color: rgba(255, 255, 0, 0.2);
+    width: 100%;
+    display: inline-block;
+}
+.step:before {
+    content: "Step";
+    background-color: rgba(0, 255, 0, 0.2);
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $GRID
+\*------------------------------------*/
+
+.span12-12 { width: 100%; }
+.span12-11 { width: 91.66666667%; }
+.span12-10 { width: 83.33333333%; }
+.span12-9 { width: 75%; }
+.span12-8 { width: 66.66666667%; }
+.span12-7 { width: 58.33333333%; }
+.span12-6 { width: 50%; }
+.span12-5 { width: 41.66666667%; }
+.span12-4 { width: 33.33333333%; }
+.span12-3 { width: 25%; }
+.span12-2 { width: 16.66666667%; }
+.span12-1 { width: 8.33333333%; }
+
+.pull12-12 { right: 100%; }
+.pull12-11 { right: 91.66666667%; }
+.pull12-10 { right: 83.33333333%; }
+.pull12-9 { right: 75%; }
+.pull12-8 { right: 66.66666667%; }
+.pull12-7 { right: 58.33333333%; }
+.pull12-6 { right: 50%; }
+.pull12-5 { right: 41.66666667%; }
+.pull12-4 { right: 33.33333333%; }
+.pull12-3 { right: 25%; }
+.pull12-2 { right: 16.66666667%; }
+.pull12-1 { right: 8.33333333%; }
+.pull12-0 { right: 0; }
+
+.push12-12 { left: 100%; }
+.push12-11 { left: 91.66666667%; }
+.push12-10 { left: 83.33333333%; }
+.push12-9 { left: 75%; }
+.push12-8 { left: 66.66666667%; }
+.push12-7 { left: 58.33333333%; }
+.push12-6 { left: 50%; }
+.push12-5 { left: 41.66666667%; }
+.push12-4 { left: 33.33333333%; }
+.push12-3 { left: 25%; }
+.push12-2 { left: 16.66666667%; }
+.push12-1 { left: 8.33333333%; }
+.push12-0 { left: 0; }
+
+.prepend12-12 { margin-left: 100%; }
+.prepend12-11 { margin-left: 91.66666667%; }
+.prepend12-10 { margin-left: 83.33333333%; }
+.prepend12-9 { margin-left: 75%; }
+.prepend12-8 { margin-left: 66.66666667%; }
+.prepend12-7 { margin-left: 58.33333333%; }
+.prepend12-6 { margin-left: 50%; }
+.prepend12-5 { margin-left: 41.66666667%; }
+.prepend12-4 { margin-left: 33.33333333%; }
+.prepend12-3 { margin-left: 25%; }
+.prepend12-2 { margin-left: 16.66666667%; }
+.prepend12-1 { margin-left: 8.33333333%; }
+.prepend12-0 { margin-left: 0; }
+
+.append12-12 { margin-right: 100%; }
+.append12-11 { margin-right: 91.66666667%; }
+.append12-10 { margin-right: 83.33333333%; }
+.append12-9 { margin-right: 75%; }
+.append12-8 { margin-right: 66.66666667%; }
+.append12-7 { margin-right: 58.33333333%; }
+.append12-6 { margin-right: 50%; }
+.append12-5 { margin-right: 41.66666667%; }
+.append12-4 { margin-right: 33.33333333%; }
+.append12-3 { margin-right: 25%; }
+.append12-2 { margin-right: 16.66666667%; }
+.append12-1 { margin-right: 8.33333333%; }
+.append12-0 { margin-right: 0; }
+
+.pull-push { position: relative; }
+.gutter { padding-left: 16px; padding-right: 16px; }
+.pull-push-reset { position: static; }
+.gutter-reset { padding-left: 0; padding-right: 0; }
+.list-reset { margin: 0;padding: 0;list-style-type: none; }
+.clearfix { clear: both; }
+
+.grid { max-width: 1200px; margin-left:auto; margin-right:auto; }
+.grid:after { content: ""; clear: both; display: block; }
+.column { float: left; width: 100%; }
+
+
+
+
+
+/*------------------------------------*\
+        $ALIGMENT
+\*------------------------------------*/
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+
+
+
+    
+/*------------------------------------*\
+        $VISTIBLE / HIDDEN
+\*------------------------------------*/
+
+.display-block { display: block; }
+.display-inline { display: inline-block; }
+.display-inline-block { display: inline-block; }
+.display-none { display: none; }
+
+
+
+
+
+/*------------------------------------*\
+    $UI
+\*------------------------------------*/
+
+/* Mobile / Small tablet */
+body > header,
+body > footer,
+.content {
+    &:extend(.grid);
+}
+
+body > header:after,
+body > footer:after,
+.content:after {
+    &:extend(.grid:after);
+}
+
+.brand,
+.slogan,
+.title,
+.main-nav,
+.overview,
+.anchor-nav,
+.main,
+.article,
+.step,
+.call-to-action,
+.secondary-nav,
+.utils,
+.legals {
+    box-sizing: border-box;
+    &:extend(.column);
+}
+
+.brand,
+.slogan,
+.title,
+.main-nav,
+.overview,
+.anchor-nav,
+ .article,
+.step,
+.call-to-action,
+.secondary-nav,
+.utils,
+.legals {
+    &:extend(.gutter);
+}
+
+.step-list,
+.call-to-action-list {
+    &:extend(.list-reset);
+}
+
+.title {
+    &:extend(.clearfix);
+}
+
+.legals,
+.utils {
+    &:extend(.text-center);  
+}
+
+.step {
+    &:extend(.display-none);    
+}
+
+/* Tablet / Small desktop */
+@media (min-width: @screen-sm-min) {
+    .brand,
+    .title {
+        .span12-2;
+    }
+    .anchor-nav,
+    .utils {
+        .span12-3;
+    }
+    .step {
+        .span12-4;
+    }
+    .call-to-action {
+        .span12-6;
+    }
+    .legals,
+    .main {
+        .span12-9;
+    }
+    .main-nav,
+    .slogan {
+        .span12-10;
+    }
+
+    .utils,
+    .legals,
+    .brand,
+    .slogan {
+        .pull-push;
+    }
+
+    .utils {
+        .push12-9;
+    }
+    .brand {
+        .push12-10;
+    }
+    .slogan {
+        .pull12-2;
+    }
+    .legals {
+        .pull12-3;
+    }
+    .legals {
+        .text-left;
+    }
+    .brand,
+    .utils {
+        .text-right;
+    }
+    .step {
+        .display-block;
+    }
+    .call-to-action:nth-child(n + 3) {
+        .display-none;
+    }
+}
+
+/* Desktop */
+@media (min-width: @screen-md-min) {
+    .anchor-nav,  
+    .call-to-action {
+        .span12-4;
+    }
+    .main {
+        .span12-8;
+    }
+    .call-to-action:nth-child(n + 3) {
+        .display-block;
+    }
+}
+
+/* Large desktop */
+@media (min-width: @screen-lg-min) {
+    .anchor-nav {
+        .span12-3;
+    }
+    .call-to-action {
+        .span12-4;
+    }
+    .main {
+        .span12-9;
+    }
+    .call-to-action:nth-child(odd) {
+        .prepend12-2;
+    }
+    .call-to-action:nth-child(even) {
+        .append12-2;
+    }
+    .call-to-action:nth-child(n + 3) {
+        .display-none;
+    }
+}

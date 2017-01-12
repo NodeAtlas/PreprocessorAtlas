@@ -1,0 +1,111 @@
+screen-sm-min = 768px
+screen-md-min = 992px
+screen-lg-min = 1200px
+
+title-content(title, color)
+	&:before
+		width 100%
+		content title
+		background-color color;
+		display inline-block
+		
+list-reset()
+	margin 0
+	padding 0
+	list-style-type none
+	
+clearfix()
+	&:after
+		content ""
+		clear both
+		display block
+		
+gutter()
+	padding-left 16px
+	padding-right 16px
+	
+pull-push()
+	position relative
+	
+pull-push-reset()
+	position static
+
+gutter-reset()
+	padding-left 0
+	padding-right 0
+
+grid()
+	max-width 1200px
+	margin-left auto
+	margin-right auto
+
+column()
+	float left
+	width 100%
+	
+text-left()
+	text-align left
+
+text-center()
+	text-align center
+	
+text-right()
+	text-align right
+
+text-justify()
+	text-align justify
+	
+display-block()
+	display block
+
+display-inline()
+	display inline-block
+
+display-inline-block()
+	display inline-block
+
+display-none()
+	display none
+
+box-sizing()
+	box-sizing border-box
+	
+span(base, total)
+	width ((base / total) * 100) + '%'
+
+create-span(total)
+	for num in (0..total)
+		.span{num}-{total}
+			width ((num / total) * 100) + '%'
+			
+create-pull(total)
+	for num in (0..total)
+		.pull{num}-{total}
+			right ((num / total) * 100) + '%'
+			
+push(base, total)
+	left ((base / total) * 100) + '%'
+
+create-push(total)
+	for num in (0..total)
+		.push{num}-{total}
+			left ((num / total) * 100) + '%'
+			
+pull(base, total)
+	right ((base / total) * 100) + '%'
+			
+create-prepend(total)
+	for num in (0..total)
+		.prepend{num}-{total}
+			margin-left ((num / total) * 100) + '%'
+			
+prepend(base, total)
+	margin-left ((base / total) * 100) + '%'
+
+create-append(total)
+	for num in (0..total)
+		.append{num}-{total}
+			margin-right ((num / total) * 100) + '%'
+			
+append(base, total)
+	margin-right ((base / total) * 100) + '%'
