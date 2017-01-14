@@ -14,7 +14,7 @@
 		}
     },
     "urlRelativeSubPath": "sub/folder",
-    "stylesheetsBundlesBeforeResponse": false,
+    "cssBundlingBeforeResponse": true,
 	"routes": {
 		"/stylus": {
 			"view": "index.htm",
