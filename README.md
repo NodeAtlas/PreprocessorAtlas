@@ -1,6 +1,6 @@
 # PreprocessorAtlas #
 
-Version : 4.0.0
+Version : 4.1.0
 
 NodeAtlas Version minimale : 2.0.x
 
@@ -10,15 +10,15 @@ NodeAtlas Version minimale : 2.0.x
 
 ## Avant-propos ##
 
-PreprocessorAtlas est un exemple de site tournant avec [NodeAtlas](http://haeresis.github.io/NodeAtlas/) et utilisant les fonctionalités Less et Stylus.
+PreprocessorAtlas est un exemple de site tournant avec [NodeAtlas](http://node-atlas.js.org/) et utilisant les fonctionalités Less et Stylus.
 
-**Il fait office d'exemple pour l'article : [Utilisation optimisée de Framework CSS comme Bootstrap avec Less](httpsww://blog.lesieur.name/utilisation-optimisee-de-framework-css-comme-bootstrap-avec-less/)**!
+**Il fait office d'exemple pour l'article : [Utilisation optimisée de Framework CSS comme Bootstrap avec Less](https://blog.lesieur.name/utilisation-optimisee-de-framework-css-comme-bootstrap-avec-less/)**!
 
 
 
 ## Lancer le site en local ##
 
-Pour faire tourner le site en local, il vous faudra installer [NodeAtlas](http://haeresis.github.io/NodeAtlas/) sur votre poste de développement.
+Pour faire tourner le site en local, il vous faudra installer [NodeAtlas](http://node-atlas.js.org/) sur votre poste de développement.
 
 Déplacez vous ensuite dans le dossier :
 
@@ -30,7 +30,7 @@ Déplacez vous ensuite dans le dossier :
 et utilisez la commande :
 
 ```
-\> node </path/to/>node-atlas/ --browse
+\> node-atlas --browse
 ```
 
 ou lancez `server.na` en double cliquant dessus :
@@ -50,16 +50,16 @@ Le site sera accessible ici :
 
 ### Overview ###
 
-PreprocessorAtlas is an example of Node.js website running with [NodeAtlas](http://haeresis.github.io/NodeAtlas/) and with Less enabled.
+PreprocessorAtlas is an example of Node.js website running with [NodeAtlas](https://node-atlas.js.org/english/) and with Less enabled.
 
-**It used as an example for the article : [Utilisation optimisée de Framework CSS comme Bootstrap avec Less](httpsww://blog.lesieur.name/utilisation-optimisee-de-framework-css-comme-bootstrap-avec-less/)** (Fr)
+**It used as an example for the article : [Utilisation optimisée de Framework CSS comme Bootstrap avec Less](https://blog.lesieur.name/utilisation-optimisee-de-framework-css-comme-bootstrap-avec-less/)** (Fr)
 
 
 
 
 ### Run the website in local server ###
 
-To run the website in local, you must install [NodeAtlas](http://haeresis.github.io/NodeAtlas/) on your development machine.
+To run the website in local, you must install [NodeAtlas](https://node-atlas.js.org/english/) on your development machine.
 
 Then you move into the folder:
 
@@ -71,7 +71,7 @@ Then you move into the folder:
 and use the command:
 
 ```
-\> node </path/to/>node-atlas/ --browse
+\> node-atlas --browse
 ```
 
 or run `server.na` by double clicking and:

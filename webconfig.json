@@ -3,9 +3,10 @@
 	"index": true,
 	"cssBundlingBeforeResponse": true,
 	"less": {
-        "files": "less.json"
-    },
-  	"bundles": "bundles.json",
+		"files": "less.json",
+		"autoprefix": true
+	},
+	"bundles": "bundles.json",
 	"routes": "routes.json",
 	"_minified": ""
 }

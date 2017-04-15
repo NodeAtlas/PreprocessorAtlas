@@ -2,9 +2,10 @@
 	"cache": true,
 	"httpPort": 7777,
 	"less": {
-        "files": "less.json"
-    },
+		"files": "less.json",
+		"autoprefix": true
+	},
 	"routes": "routes.json",
-  	"bundles": "bundles.json",
+	"bundles": "bundles.json",
 	"_minified": ".min"
 }
