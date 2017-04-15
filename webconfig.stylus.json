@@ -2,19 +2,20 @@
 	"httpPort": 7777,
 	"index": true,
 	"stylus": {
-        "files": [
-		    "stylesheets/stylus-example.styl"
-		]
-    },
-    "bundles": {
+		"files": [
+			"stylesheets/stylus-example.styl"
+		],
+		"autoprefix": true
+	},
+	"bundles": {
 		"stylesheets": {
 			"stylesheets/stylus-example.min.css": [
 				"stylesheets/stylus-example.css"
 			]
 		}
-    },
-    "urlRelativeSubPath": "sub/folder",
-    "cssBundlingBeforeResponse": true,
+	},
+	"urlRelativeSubPath": "sub/folder",
+	"cssBundlingBeforeResponse": true,
 	"routes": {
 		"/stylus": {
 			"view": "index.htm",

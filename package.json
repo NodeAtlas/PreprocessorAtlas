@@ -1,20 +1,20 @@
 {
-  "name": "preprocessor-atlas",
-  "version": "4.0.0",
-  "author": "Bruno Lesieur <bruno.lesieur@gmail.com>",
-  "description": "NodeAtlas Example using Less or Stylus Preprocessor",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Haeresis/PreprocessorAtlas.git"
-  },
-  "license": "GPL-2.0",
-  "bugs": {
-    "url": "https://github.com/Haeresis/PreprocessorAtlas/issues"
-  },
-  "main": "server.na",
-  "engines": {
-    "node": ">=0.10.10"
-  },
-  "readmeFilename": "README.md"
+	"name": "preprocessor-atlas",
+	"version": "4.1.0",
+	"author": "Bruno Lesieur <bruno.lesieur@gmail.com>",
+	"description": "NodeAtlas Example using Less or Stylus Preprocessor",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Haeresis/PreprocessorAtlas.git"
+	},
+	"license": "GPL-2.0",
+	"bugs": {
+		"url": "https://github.com/Haeresis/PreprocessorAtlas/issues"
+	},
+	"main": "server.na",
+	"engines": {
+		"node": ">=0.10.10"
+	},
+	"readmeFilename": "README.md"
 }
